@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 9, 2018 2:00:13 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.airticket.CityBean" table="city_table">
+        <id name="city_id" type="int">
+            <column name="CITY_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="city_name" type="java.lang.String">
+            <column name="CITY_NAME" />
+        </property>
+        <property name="city_code" type="java.lang.String">
+            <column name="CITY_CODE" />
+        </property>
+    </class>
+</hibernate-mapping>
