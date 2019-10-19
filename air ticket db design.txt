@@ -1,0 +1,24 @@
+user_table
+name, username (P), password, email, mobile, city, role, gender, status
+
+
+airline_table
+airline_id(P), airline_name
+
+
+flight_table
+flight_id(P),flight_code, airline_id (F), from_location, to_location, dept_time, arrival_time, duration, total_seat, frequency, price, status
+
+
+flight_info_table
+flight_info_id(P),flight_id(F), dept_date, available_seat
+
+
+ticket_detail_table
+ticket_id(P), pnr, username(F), name, age, gender, flight_id(F),dept_date,status
+
+
+city_table
+city_id(P),city_name,city_code(U)
+
+
