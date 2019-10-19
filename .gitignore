@@ -1,6 +1,0 @@
-target/
-build/
-.classpath
-.project
-.settings/
-WebContent/WEB-INF/lib/
